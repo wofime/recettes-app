@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Crêpes sucrées",
+    "category": "Dessert",
+    "prepTime": 15,
+    "cookTime": 20,
+    "ingredients": [
+      "250 g de farine",
+      "4 œufs",
+      "50 cl de lait",
+      "2 cuillères à soupe de sucre",
+      "1 pincée de sel",
+      "20 g de beurre fondu"
+    ],
+    "steps": [
+      "Mélanger la farine, le sucre et le sel dans un saladier.",
+      "Faire un puits au centre et y casser les œufs.",
+      "Incorporer progressivement le lait tout en fouettant.",
+      "Ajouter le beurre fondu et mélanger jusqu'à obtenir une pâte lisse.",
+      "Laisser reposer 30 min (facultatif mais recommandé).",
+      "Cuire dans une poêle antiadhésive huilée à feu moyen."
+    ]
+  }
+]

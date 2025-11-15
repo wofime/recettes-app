@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carnet de Recettes</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav id="side-menu" class="side-menu">
+    <div class="menu-header">
+      <h2>🍽️ Carnet de Recettes</h2>
+      <button id="close-menu">&times;</button>
+    </div>
+    <ul>
+      <li><a href="pages/all-recipes.html">Toutes les recettes</a></li>
+      <li><a href="pages/create-recipe.html">Créer une recette</a></li>
+      <li><button id="theme-toggle" class="theme-btn">🌓</button></li>
+    </ul>
+  </nav>
+
+  <div id="overlay"></div>
+
+  <main class="main-content">
+    <header class="top-bar">
+      <button id="hamburger" class="hamburger">☰</button>
+      <h1>Carnet de Recettes</h1>
+    </header>
+
+    <section class="home-hero">
+      <h2>Bienvenue dans votre carnet de recettes personnel !</h2>
+      <p>Explorez vos recettes, créez-en de nouvelles, ou importez-les depuis un fichier JSON.</p>
+      <div class="cta-buttons">
+        <a href="pages/all-recipes.html" class="btn">Voir toutes les recettes</a>
+        <a href="pages/create-recipe.html" class="btn">Créer une recette</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Toutes les recettes</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/all-recipes.css" />
+</head>
+<body>
+  <nav id="side-menu" class="side-menu">
+    <div class="menu-header">
+      <h2>🍽️ Carnet</h2>
+      <button id="close-menu">&times;</button>
+    </div>
+    <ul>
+      <li><a href="../index.html">Accueil</a></li>
+      <li><a href="all-recipes.html">Toutes les recettes</a></li>
+      <li><a href="create-recipe.html">Créer une recette</a></li>
+      <li><button id="theme-toggle" class="theme-btn">🌓</button></li>
+    </ul>
+  </nav>
+  <div id="overlay"></div>
+
+  <main class="main-content">
+    <header class="top-bar">
+      <button id="hamburger" class="hamburger">☰</button>
+      <h1>Toutes les recettes</h1>
+    </header>
+
+    <div class="search-box">
+      <input type="text" id="search-input" placeholder="🔍 Rechercher par titre ou ingrédient...">
+    </div>
+
+    <div class="filters-bar">
+      <select id="category-filter">
+        <option value="">🔍 Toutes les catégories</option>
+        <option value="Entrée">Entrée</option>
+        <option value="Plat">Plat</option>
+        <option value="Dessert">Dessert</option>
+        <option value="Boisson">Boisson</option>
+        <option value="Autre">Autre</option>
+      </select>
+    </div>
+
+    <section id="recipes-container">
+      <div id="recipes-list"></div>
+      <div id="no-recipes" style="display: none;">
+        <p>Aucune recette pour le moment. <a href="create-recipe.html">Créez-en une !</a></p>
+      </div>
+    </section>
+  </main>
+
+  <script src="../js/main.js"></script>
+  <script src="../js/all-recipes.js"></script>
+</body>
+</html>
